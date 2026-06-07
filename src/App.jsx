@@ -1,11 +1,18 @@
-import { Button } from "@/components/ui/button"
+import { Routes, Route } from "react-router-dom"
+import Navbar from "@/components/Navbar"
+import Home from "@/pages/Home"
+import Entities from "@/pages/Entities"
 
-function App() {
+export default function App() {
   return (
-    <div className="flex min-h-svh items-center justify-center">
-      <Button>Dog Gallery 🐶</Button>
+    <div className="min-h-screen">
+      <Navbar />
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/entities" element={<Entities />} />
+        </Routes>
+      </main>
     </div>
   )
 }
-
-export default App
