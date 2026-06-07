@@ -1,16 +1,60 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🐶 Dog Gallery Challenge
 
-Currently, two official plugins are available:
+### Galería de imágenes de perros en tiempo real, construida con React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Una aplicación que consume la API pública de **TheDogAPI** y muestra una galería interactiva con información detallada de cada raza.
 
-## React Compiler
+<br>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![shadcn/ui](https://img.shields.io/badge/shadcn/ui-000000?style=for-the-badge&logo=shadcnui&logoColor=white)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white)
 
-## Expanding the ESLint configuration
+<br>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+[**🌐 Ver Demo**](#) · [**🎥 Ver Video**](#) · [**🐙 Repositorio**](https://github.com/Gonnarch/GaleriaPerros)
+
+</div>
+
+---
+
+## 📸 Vista previa
+
+<div align="center">
+
+<!-- Reemplaza con tu captura: arrastra la imagen aquí en GitHub al editar el README -->
+![Preview](https://via.placeholder.com/900x450?text=Dog+Gallery+Preview)
+
+</div>
+
+---
+
+## ✨ Características
+
+- 🏠 **Home** con hero, descripción del proyecto y galería de la respuesta de la API.
+- 📜 **Entities** con listado detallado de cada raza (4 propiedades).
+- 🌐 **Consumo de API** mediante un hook personalizado con estados de carga y error.
+- 🔗 **Navegación** entre rutas con React Router, sin recargar la página.
+- 🎨 **UI** moderna y accesible con shadcn/ui + Tailwind CSS.
+
+---
+
+## 🧰 Tecnologías
+
+| Categoría     | Herramienta            |
+| ------------- | ---------------------- |
+| Framework     | React 18               |
+| Bundler       | Vite                   |
+| Ruteo         | React Router DOM       |
+| Estilos       | Tailwind CSS v4        |
+| Componentes   | shadcn/ui              |
+| Iconos        | lucide-react           |
+| API           | TheDogAPI              |
+
+---
+
+## 🌐 API consumida
