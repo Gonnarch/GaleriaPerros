@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 
-const API_URL = "https://api.thedogapi.com/v1/images/search?limit=10&has_breeds=1"
+const API_URL = "https://api.thedogapi.com/v1/images/search?limit=10"
 
 export function useDogs() {
   const [dogs, setDogs] = useState([])
