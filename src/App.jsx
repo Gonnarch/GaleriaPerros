@@ -1,5 +1,11 @@
+import { Button } from "@/components/ui/button"
+
 function App() {
-  return <h1>Dog Gallery 🐶</h1>
+  return (
+    <div className="flex min-h-svh items-center justify-center">
+      <Button>Dog Gallery 🐶</Button>
+    </div>
+  )
 }
 
 export default App
