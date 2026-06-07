@@ -49,8 +49,8 @@ La aplicación quedará disponible en `http://localhost:5173`.
 
 ## 🔗 Enlaces
 
-- **🌐 Deploy:** _<pega aquí tu enlace de Vercel>_
-- **🎥 Video:** _<pega aquí tu enlace de YouTube>_
+- **🌐 Deploy:** _<https://github.com/Gonnarch/GaleriaPerrosl>_
+- **🎥 Video:** _<https://youtu.be/xA3v0ts4t6Q>_
 
 ---
 
